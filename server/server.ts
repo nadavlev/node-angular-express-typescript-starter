@@ -18,7 +18,7 @@ class Server {
         this.app.use(express.json());
         this.app.use(express.urlencoded({extended: false}));
         this.app.use(cookieParser());
-        this.app.use(express.static(path.join(__dirname, 'build/public')));
+        this.app.use(express.static(path.join(__dirname, '../../build/client')));
     }
 
     private loadRouts() {

@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "concurrently \"npm:tsc\" \"nodemon ./build/server.js \" ",
-    "start": "node ./build/server.js",
+    "start:dev": "concurrently \" npm run client:build-watch --prefix client \" \"npm:tsc\" \"nodemon build/server/server.js \" ",
+    "start": "node ./build/server/server.js",
+    "start:client": "cd client && ng serve",
+    "client:build": "cd client && ng build",
+    "client:build-watch": "cd client && ng build --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc -w"
   },
