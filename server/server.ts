@@ -1,9 +1,10 @@
 import express from 'express';
 import cookieParser from "cookie-parser";
 import * as path from "path";
-import IndexRout from "./routs";
-import MemberHomeRout from "./routs/member.home";
+import HomeRout from "./routs/home.rout";
+import MemberRout from "./routs/member.rout";
 import {config} from "./config.env";
+import {ApiController} from "./routs/api.rout";
 
 export const port = config.port || 4000;
 
@@ -22,11 +23,8 @@ class Server {
     }
 
     private loadRouts() {
-        const indexRout: IndexRout = new IndexRout();
-        const memberHomeRout: MemberHomeRout = new MemberHomeRout();
-
-        this.app.use(indexRout.router);
-        this.app.use(memberHomeRout.router);
+        const apiController = new ApiController();
+        this.app.use(apiController.path, apiController.router);
     }
 
     public listen(port: any) {

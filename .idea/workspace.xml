@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67bf81e5-c9e0-4df6-91e8-cfe5259b0203" name="Default Changelist" comment="" />
+    <list default="true" id="67bf81e5-c9e0-4df6-91e8-cfe5259b0203" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/routs/api.rout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/routs/home.rout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routs/member.home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/routs/member.rout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lVqzhFPZpRLewN71R9HMXy6654" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -24,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clean-generated-express-for-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,7 +44,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
-    <property name="ts.external.directory.path" value="C:\dev\research\project\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\dev\research\node-angular-express-typescript-starter\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,6 +63,7 @@
       <updated>1607692869387</updated>
       <workItem from="1607692870428" duration="2759000" />
       <workItem from="1607696710492" duration="7251000" />
+      <workItem from="1612098045532" duration="2605000" />
     </task>
     <servers />
   </component>

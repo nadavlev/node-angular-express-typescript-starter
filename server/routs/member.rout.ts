@@ -1,17 +1,15 @@
 import express from 'express';
-import * as path from "path";
 
-
-class IndexRout {
+class MemberRout {
     public router = express.Router();
     constructor() {
         this.initRoutes();
     }
     private initRoutes() {
-        this.router.get('/api/index', (req, res) => {
-            res.send('Hello from index');
+        this.router.get('/memberHome', (req, res) => {
+            res.send('Hello Member Home');
         });
     }
 }
 
-export default IndexRout;
+export default MemberRout;
